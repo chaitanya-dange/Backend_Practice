@@ -1,5 +1,7 @@
 here i have created blank folder and downloaded package.json() by npm init -y, and then added express, nodemon, mongodb,mongoose.
 
+note create .gitignore file and type(/node_modules) to not push that particular folder to git.
+
 
 
 C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm init -y
@@ -65,6 +67,14 @@ added 9 packages, and audited 193 packages in 2s
   run `npm fund` for details
 
 found 0 vulnerabilities
+---------------------------------------------------------------------
+if you get this error , then  go to cmd and type mongo to start the mongodb
+
+PS C:\Users\prana\Desktop\webweb\zzz_self_curd_02\Backend_Practice> node app.js
+(node:2920) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+node:events:491
+      throw er; // Unhandled 'error' event
 ---------------------------------------------------------------------
 
 in vsc ,  create file app.js
