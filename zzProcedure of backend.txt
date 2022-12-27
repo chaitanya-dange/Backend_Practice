@@ -1,0 +1,70 @@
+here i have created blank folder and downloaded package.json() by npm init -y, and then added express, nodemon, mongodb,mongoose.
+
+
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm init -y
+Wrote to C:\Users\prana\Desktop\webweb\zzz_self_curd_02\package.json:
+
+{
+  "name": "zzz_self_curd_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+---------------------------------------------------------------------
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm install express
+
+added 57 packages, and audited 58 packages in 5s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+---------------------------------------------------------------------
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm install nodemon
+
+added 32 packages, and audited 90 packages in 3s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+--------------------------------------------------------------------
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm install mongodb
+
+added 94 packages, and audited 184 packages in 9s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+---------------------------------------------------------------
+
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02>npm install mongoose
+
+added 9 packages, and audited 193 packages in 2s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+---------------------------------------------------------------------
+
+in vsc ,  create file app.js
