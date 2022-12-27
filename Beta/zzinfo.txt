@@ -1,0 +1,35 @@
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02\Backend_Practice\Beta>npm init -y
+Wrote to C:\Users\prana\Desktop\webweb\zzz_self_curd_02\Backend_Practice\Beta\package.json:
+
+{
+  "name": "beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+------------------------------
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02\Backend_Practice\Beta>npm install express
+
+added 57 packages, and audited 58 packages in 4s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+----------------------------------
+
+C:\Users\prana\Desktop\webweb\zzz_self_curd_02\Backend_Practice\Beta>npm install nodemon
+
+added 32 packages, and audited 90 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
