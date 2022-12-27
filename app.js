@@ -1,3 +1,4 @@
+const { json } = require('express');
 const express=require('express');
 const app= express();
 
@@ -16,6 +17,8 @@ con.on('open',()=>{
 })
 
 //middleware is need to connect between app.js and alien.js file so
+
+app.use(express.json())
 
 const alienRouter = require('./Routes/aliens');// this can be directly insert in app.use but for clarity are seperate.
 

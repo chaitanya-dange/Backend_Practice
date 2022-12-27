@@ -15,6 +15,23 @@ router.get('/', async (req,res)=>{
     }
 })
 
+router.post('/',async (req,res)=>{
+    const a1= new schema_obj({
+        name:req.body.name,
+        tech:req.body.tech,
+        sub:req.body.sub
+    })
+
+    try{
+        const a2=await a1.save();
+        res.json(a2)
+
+
+    }catch(err){
+        res.send('Error'+err)
+    }
+})
+
 module.exports=router;
 
 
