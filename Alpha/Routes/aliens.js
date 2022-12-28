@@ -49,18 +49,19 @@ router.patch('/:id', async (req,res)=>{
     try{
         const a4= await schema_obj.findById(req.params.id)
         a4.sub=req.body.sub;//here sub is subscription 
-        const a5= await schema_obj.save();
+        const a5= await a4.save();
         res.json(a5);
         //there are some issue with this patch,what if element you are mentioning is not in database, what if don' t want to change sub but tech or name.
 
        
     }catch(err){
+        console.log(err);
         res.send('error'+err);
     }
 })
 
 
-router.patch('/:id', async (req,res)=>{
+router.delete('/:id', async (req,res)=>{
     try{
         const a1= await schema_obj.findByIdAndDelete(req.params.id);
         res.send('Deleted.....')
