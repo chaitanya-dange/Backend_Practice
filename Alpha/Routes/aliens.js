@@ -63,7 +63,7 @@ router.patch('/:id', async (req,res)=>{
 
 router.delete('/:id', async (req,res)=>{
     try{
-        const a1= await schema_obj.findByIdAndDelete(req.params.id);
+        const a1= await schema_obj.findOneAndDelete(req.params.id);
         res.send('Deleted.....')
         
        
